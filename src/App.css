@@ -1,0 +1,320 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.App {
+    margin: 0;
+    padding: 0;
+    background-color: #103430;
+}
+.homepage {
+    position: relative;
+    
+    overflow: hidden;
+    font-size: 1vw;
+    max-height: 736px;
+    max-width: 1536px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #103430;
+}
+
+.compscreen {
+    position: relative;
+    overflow: hidden;
+    font-size: 2.4vw;
+    max-height: 736px;
+    max-width: 1536px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #103430;
+}
+
+.react {
+    position: absolute;
+    z-index: 2;
+    top: 22.7%;
+    left: 74.5%;
+    width: 4%;
+    height: 30%;
+}
+
+.react:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.bootstrap {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(22deg);
+    top: 31%;
+    left: 62.65%;
+    width: 1.2%;
+    height: 22%;
+}
+
+.bootstrap:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.javascript {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(22deg);
+    width: 3.4%;
+    height: 23.5%;
+    top: 29.5%;
+    left: 64.18%;
+}
+
+.javascript:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.sql {
+    position: absolute;
+    z-index: 2;
+    width: 1.75%;
+    height: 30%;
+    top: 22.8%;
+    left: 69.4%;
+    
+}
+
+.sql:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.css {
+    position: absolute;
+    z-index: 2;
+    width: 2.42%;
+    height: 25.1%;
+    top: 27.5%;
+    left: 78.45%;
+
+}
+.css:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.python {
+    position: absolute;
+    z-index: 2;
+    width: 3.18%;
+    height: 27.8%;
+    top: 24.8%;
+    left: 82.75%;
+}
+
+.python:hover {
+    background-color: rgba(255, 187, 0, 0.25);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 187, 0)
+}
+
+.background{
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.monitor{
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.powerOn{
+    position: absolute;
+    z-index: 2;
+    top: 41%;
+    left: 34.65%;
+    color: red;
+}
+
+.powerOn:hover {
+    color: rgb(0, 184, 0);
+   
+}
+
+.powerOff {
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    left: 48.8%;
+    color: rgb(0, 184, 0);
+}
+
+.powerOff:hover {
+    color: red; 
+}
+
+.screenOff {
+    position: absolute;
+    background-color:rgb(27, 26, 26);
+    z-index: 3;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 3px;
+    width: 26.5%;
+    height: 27%;
+    top: 10%;
+    left: 21.9%;
+
+}
+
+.screenOn {
+    position: absolute;
+    background-color:#292929;
+    z-index: 3;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 5px;
+    width: 62%;
+    height: 65%;
+    top: 7%;
+    left: 19%;
+    overflow: auto;
+}
+
+.screensaver {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.resume {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+.deskIcons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 4;
+    left: 2%;
+    height: 100%; 
+    
+}
+
+.Link {
+    font-size: 36px;
+    color: #e96b54;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Link:hover {
+    color:rgba(255, 187, 0);
+}
+
+.linkTitle {
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.aboutLink {
+    
+    
+
+    color: #e96b54;
+    text-align: center;
+    padding: 5px;
+}
+
+.resumeLink {
+    
+
+    color: #e96b54;
+    text-align: center;
+    padding: 5px;
+}
+
+.portfolioLink {
+    
+
+    color: #e96b54;
+    text-align: center;
+    padding: 5px;
+}
+
+.artLink {
+    
+
+    color: #e96b54;
+    text-align: center;
+    padding: 5px;
+}
+
+.contactLink {
+   
+
+    color: #e96b54;
+    text-align: center;
+    padding: 5px;
+}
+
+.navBar {
+    background-color: grey;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.exitButton {
+    position: absolute;
+    font-size: 12px;
+    right: 1em;
+    color: white;  
+    padding: 0;
+    margin: 0;  
+}
+
+.exitButton:hover {
+    color:rgb(255, 187, 0);
+}
+
+.carousel {
+    margin: center;
+    text-align: center;
+}
+
+.art {
+    max-height: 450px;
+    max-width: 930px;
+}
